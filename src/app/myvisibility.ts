@@ -15,7 +15,7 @@ export class visibilityDirective {
   
 isVisible:boolean;
   // To Listen to Events that are triggered by client
-  @HostListener('click') foo(isVisible){ 
+  @HostListener('dblclick') foo(isVisible){ 
   if(isVisible){
   console.log(isVisible);
 
